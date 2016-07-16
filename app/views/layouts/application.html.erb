@@ -2,7 +2,9 @@
 
 <html>
   <head>
+  <div class="title">
     <title>MyApp</title>
+    </div>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -27,9 +29,10 @@
 
     
 <%= yield %>
+<div class="foot">
     <footer>
     	&copy; 2016 Bike Berlin
-    </footer>
+    </footer></div>
     
   </body>
 </html>

@@ -10,30 +10,45 @@ h2,
   text-align: center;
 }
 
+.title {
+	margin-top:60px;
+}
 .nav {
-  background-color:#5AD4C2;
+  background-color:black;
   position:fixed;
   width:100%;
   top:0;
-  z-index:1;
-  border-bottom:1.5px solid #CDC300;
   float:right;
+  height:35px;
 	
 }
 
-.nav-left ul{
-	
+.nav-left {
+margin-top:7px;
+padding:10px 40px;
+float:right;
 	
 }
 
-.nav-left ul li {
-	float:right;
+.nav-left li {
+	float:left;
 	padding: 0 10px 3px 0;
   	display: inline-block;
     color:#CCCCCC;
+    list-style: none;
     
 }
 
-.nav-left ul li a {
+.nav-left a:hover {
+	color: white;
 	text-decoration:none;
+	
+}
+
+.foot {
+  background-color:black;
+  width:100%;
+  text-align:right;
+  height:20px;
+  padding-right:16px;
 }
