@@ -1,0 +1,69 @@
+/* line 5, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+h1,
+h2 {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: blue;
+  text-align: center;
+}
+
+/* line 13, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.title {
+  margin-top: 60px;
+}
+
+/* line 16, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  float: right;
+  height: 35px;
+}
+
+/* line 26, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.nav-left {
+  margin-top: 7px;
+  padding: 10px 40px;
+  float: right;
+}
+
+/* line 33, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.nav-left li {
+  float: left;
+  padding: 0 10px 3px 0;
+  display: inline-block;
+  color: #CCCCCC;
+  list-style: none;
+}
+
+/* line 42, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.nav-left a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 48, /Users/dorothyacarter/my_app/app/assets/stylesheets/static_pages.scss */
+.foot {
+  background-color: black;
+  width: 100%;
+  text-align: right;
+  height: 20px;
+  padding-right: 16px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
