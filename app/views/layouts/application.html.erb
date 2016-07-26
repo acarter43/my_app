@@ -19,9 +19,10 @@
   <body>
   	<nav class="nav">
   		<ul class="nav-left">
-  			<li><a href="localhost:3000"> Home </a> </li>
-  			<li><a href="static_pages/about"> About </a></li>
-  			<li><a href="static_pages/contact"> Contact </a></li>
+  			<li>Home</li>
+  			<li><a href="/about"> About </a></li>
+  			<li><%= link_to "Mission Page", mission_path %>
+</li>
   		</ul>
   	</nav>
 
@@ -29,9 +30,10 @@
 
     
 <%= yield %>
+<footer class="container">
 <div class="foot">
-    <footer>
-    	&copy; 2016 Bike Berlin
+    
+    <p>	&copy; 2016 Bike Berlin </p>
     </footer></div>
     
   </body>
